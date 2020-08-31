@@ -1,18 +1,18 @@
 [
   {
     "path": "posts/welcome/",
-    "title": "Welcome to Lyndsay's Cognitive Psychology Blog",
-    "description": "Welcome to our new blog, Lyndsay's Cognitive Psychology Blog. We hope you enjoy \nreading what we have to say!",
+    "title": "Welcome!",
+    "description": "Welcome to Lyndsay's Cognitive Psychology Blog!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Lyndsay Hage",
+        "url": "https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/"
       }
     ],
     "date": "2020-08-28",
     "categories": [],
     "preview": {},
-    "last_modified": "2020-08-28T00:24:39-04:00",
-    "input_file": {}
+    "last_modified": "2020-08-31T12:59:49-04:00",
+    "input_file": "welcome.utf8.md"
   }
 ]
