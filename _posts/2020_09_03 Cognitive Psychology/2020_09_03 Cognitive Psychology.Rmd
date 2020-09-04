@@ -1,0 +1,34 @@
+---
+title: "What is Cognitive Psychology"
+description: |
+  What is Cognitive Psychology? Thoughts from a student who definitely does not have all the answers.
+author:
+  - name: Lyndsay Hage
+    url: https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/
+    affiliation: Hunter College - City University of New York
+    affiliation_url: https://www.cuny.edu
+date: 09-03-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+What is cognitive psychology? 
+
+When I think about the term “cognitive psychology,” I have conflicting feelings. Immediately I think of a classic-sounding definition: Cognitive psychology is the study of how animals (including humans) acquire information (through sensation), interpret information (through perception), and then utilize that information. It is a field that studies mental processes of animals (human and otherwise). This definition is a combination of definitions from various psychology courses that I have either enrolled in or have taught myself and books that I have read. It is quite similar to the definition given by Ulric Neisser, the “father of psychology” who was cited as the first person to use this term in 1967 (Crump, 2020). 
+
+I feel conflicted because the term “cognitive psychology” seems much vaster to me than this definition. This single sentence struggles to encompass all that cognitive psychology embodies and investigates. Cognitive psychology examines perception, attention, memory, communication, thinking, judgements, problem-solving, decision-making, sociality, and so much more. Our understanding of what cognitive psychology is has expanded since 1967.  Cognitive scientists not only investigate human mental processes but that of animals and even computers. One such scientist, Donald Griffin, founded the field of cognitive ethology, a branch of ethology and cognitive science investigating how animals think. 
+
+When I spoke with members of my cognitive psychology course, I mentioned how interesting it is that cognition was (and sometimes still is) viewed as an antagonist of sorts to classic behaviorism. We discussed how classic behavioralists are characterized as viewing the mind as a “black box” that we can never truly understand. I find this characterization interesting because a lot of what behaviorists investigate (such as how an animal learns or what they perceive) involves cognition. A pigeon pecks a light so that it can receive a reward and it does this at an increasing rate over time. This behavior shines light into that “black box” – that pigeon is learning! Cognitive scientists often capture behavior to make inferences as to how a rat makes judgements, what biases a cat has, or how a person with ADHD thinks. This is especially the case with animals as we can’t (often) ask them what they are thinking or why they are behaving the way they are. These fields are not as divided as they are characterized. Why does this characterization persist? 
+
+One thing that I admired about my classmates was how they framed cognitive psychology as what it meant to them. They discussed what cognitive capacities or theories interested them and used this to define what cognitive psychology meant to them. Students from the Industrial Organizational program were interested in the perception, views and judgments, attention, problem-solving, creativity, and learning of people within an organization. A student from the Cognitive and Comparative Psychology program (whoop whoop!) was interested in how animals think about or perceives their environment. A student in the Developmental Psychology program was interested in attention, problem-solving, playing, and learning in infants. I thought this was a creative way of viewing this vast field. Out of all the possible mental processes an individual can have, what is relevant to an individual scientist? What little piece of the black box are we going to investigate today?
+
+Crump, M. (2020, August 28). PSYC 73800 Cognitive Psychology: Overview. [PowerPoint Slides]. https://crumplab.github.io/psyc73800/Presentations/1_a_intro.html#4

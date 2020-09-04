@@ -1,5 +1,21 @@
 [
   {
+    "path": "posts/2020_09_03 Cognitive Psychology/",
+    "title": "What is Cognitive Psychology",
+    "description": "What is Cognitive Psychology? Thoughts from a student who definitely does not have all the answers.",
+    "author": [
+      {
+        "name": "Lyndsay Hage",
+        "url": "https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/"
+      }
+    ],
+    "date": "2020-09-03",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-09-03T22:52:16-04:00",
+    "input_file": "2020_09_03-Cognitive-Psychology.utf8.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome!",
     "description": "Welcome to Lyndsay's Cognitive Psychology Blog!",
