@@ -19,366 +19,39 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Lyndsay's Cognitive Psychology Blog</title>
+  <title>Cognitive Psychology Foundations - Module I Part II</title>
+  
+  <meta property="description" itemprop="description" content="I continue explore some foundational work investigating cognitive psychology, it&#39;s origins, and different ways in which the field has been studied."/>
   
   
-  
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2020-09-11"/>
+  <meta property="article:created" itemprop="dateCreated" content="2020-09-11"/>
+  <meta name="article:author" content="Lyndsay Hage"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Lyndsay&#39;s Cognitive Psychology Blog"/>
+  <meta property="og:title" content="Cognitive Psychology Foundations - Module I Part II"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="I continue explore some foundational work investigating cognitive psychology, it&#39;s origins, and different ways in which the field has been studied."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Lyndsay&#39;s Cognitive Psychology Blog"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Lyndsay&#39;s Cognitive Psychology Blog"/>
+  <meta property="twitter:title" content="Cognitive Psychology Foundations - Module I Part II"/>
+  <meta property="twitter:description" content="I continue explore some foundational work investigating cognitive psychology, it&#39;s origins, and different ways in which the field has been studied."/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Lyndsay's Cognitive Psychology Blog"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Cognitive Psychology Foundations - Module I Part II"]},{"type":"character","attributes":{},"value":["I continue explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Lyndsay Hage"]},{"type":"character","attributes":{},"value":["https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/"]},{"type":"character","attributes":{},"value":["Hunter College - City University of New York"]},{"type":"character","attributes":{},"value":["https://www.cuny.edu"]}]}]},{"type":"character","attributes":{},"value":["09-11-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
   
-  <script type="application/javascript">
-  
-    window.headroom_prevent_pin = false;
-  
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-  
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-  
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-  
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-  
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["2020_09_04-Module-I-Part-I_files/bowser-1.9.3/bowser.min.js","2020_09_04-Module-I-Part-I_files/distill-2.2.21/template.v2.js","2020_09_04-Module-I-Part-I_files/jquery-1.11.3/jquery.min.js","2020_09_04-Module-I-Part-I_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
-  
-  <style type="text/css">
-  
-  /* Theme (user-documented overrideables for nav appearance) */
-  
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #455a64;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .distill-site-nav a:hover {
-    color: white;
-  }
-  
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-  
-  .distill-site-header {
-  
-  }
-  
-  .distill-site-footer {
-  
-  }
-  
-  
-  /* Site Header */
-  
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-  
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-  
-  
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-  
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-  
-  .distill-site-header .title {
-    font-size: 18px;
-  }
-  
-  .distill-site-header .logo {
-    padding: 0;
-  }
-  
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-  
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-  
-  
-  
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-  
-  
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-  
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-  
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-dropdown-active {
-    display: block;
-  }
-  
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-  
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-  
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative;}
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  
-  /* Site Footer */
-  
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  /* Headroom */
-  
-  d-title {
-    padding-top: 6rem;
-  }
-  
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-  
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-  
-  .headroom--unpinned {
-    top: -100px;
-  }
-  
-  .headroom--pinned {
-    top: 0;
-  }
-  
-  </style>
-  
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
   
@@ -1264,426 +937,71 @@
   </script>
   
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="2020_09_04-Module-I-Part-I_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="2020_09_04-Module-I-Part-I_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="2020_09_04-Module-I-Part-I_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="2020_09_04-Module-I-Part-I_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Lyndsay's Cognitive Psychology Blog","authors":[]}
+{"title":"Cognitive Psychology Foundations - Module I Part II","description":"I continue explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.","authors":[{"author":"Lyndsay Hage","authorURL":"https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/","affiliation":"Hunter College - City University of New York","affiliationURL":"https://www.cuny.edu"}],"publishedDate":"2020-09-11T00:00:00.000-04:00","citationText":"Hage, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Lyndsay's Cognitive Psychology Blog</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-<style type="text/css">
-
-/* Styles for listing layout (hide title) */
-.layout-listing d-title, .layout-listing .d-title {
-  display: none;
-}
-
-/* Styles for posts lists (not auto-injected) */
-
-
-.posts-with-sidebar {
-  padding-left: 45px;
-  padding-right: 45px;
-}
-
-.posts-list .description h2,
-.posts-list .description p {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
-.posts-list .description h2 {
-  font-weight: 700;
-  border-bottom: none;
-  padding-bottom: 0;
-}
-
-.posts-list h2.post-tag {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 12px;
-}
-.posts-list {
-  margin-top: 60px;
-  margin-bottom: 24px;
-}
-
-.posts-list .post-preview {
-  text-decoration: none;
-  overflow: hidden;
-  display: block;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 24px 0;
-}
-
-.post-preview-last {
-  border-bottom: none !important;
-}
-
-.posts-list .posts-list-caption {
-  grid-column: screen;
-  font-weight: 400;
-}
-
-.posts-list .post-preview h2 {
-  margin: 0 0 6px 0;
-  line-height: 1.2em;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.posts-list .post-preview p {
-  margin: 0 0 12px 0;
-  line-height: 1.4em;
-  font-size: 16px;
-}
-
-.posts-list .post-preview .thumbnail {
-  box-sizing: border-box;
-  margin-bottom: 24px;
-  position: relative;
-  max-width: 500px;
-}
-.posts-list .post-preview img {
-  width: 100%;
-  display: block;
-}
-
-.posts-list .metadata {
-  font-size: 12px;
-  line-height: 1.4em;
-  margin-bottom: 18px;
-}
-
-.posts-list .metadata > * {
-  display: inline-block;
-}
-
-.posts-list .metadata .publishedDate {
-  margin-right: 1em;
-}
-
-.posts-list .metadata .tags {
-  margin-top: 1em;
-}
-
-.posts-list .tags .tag {
-  color: rgba(0,0,0,0.67);
-  padding: 0.3em 0.5em;
-  margin: 0;
-  font-size: 80%;
-  border: 1px solid rgba(0,0,0,0.4);
-  border-radius: 3px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-.posts-list img {
-  opacity: 1;
-}
-
-.posts-list img[data-src] {
-  opacity: 0;
-}
-
-.posts-more {
-  clear: both;
-}
-
-
-.posts-sidebar {
-  font-size: 16px;
-}
-
-.posts-sidebar h3 {
-  font-size: 16px;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.sidebar-section {
-  margin-bottom: 30px;
-}
-
-.categories ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.categories li {
-  color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
-}
-
-.categories li>a {
-  border-bottom: none;
-}
-
-.categories li>a:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-}
-
-.categories .active {
-  font-weight: 600;
-}
-
-.categories .category-count {
-  color: rgba(0, 0, 0, 0.4);
-}
-
-
-@media(min-width: 768px) {
-  .posts-list .post-preview h2 {
-    font-size: 26px;
-  }
-  .posts-list .post-preview .thumbnail {
-    float: right;
-    width: 35%;
-    margin-bottom: 0;
-  }
-  .posts-list .post-preview .description {
-    float: left;
-    width: 45%;
-  }
-  .posts-list .post-preview .metadata {
-    float: left;
-    width: 15%;
-    margin-top: 8px;
-  }
-  .posts-list .post-preview p {
-    margin: 0 0 12px 0;
-    line-height: 1.5em;
-    font-size: 16px;
-  }
-  .posts-with-sidebar .posts-list {
-    float: left;
-    width: 72%;
-  }
-  .posts-with-sidebar .posts-sidebar {
-    float: right;
-    width: 20%;
-    margin-top: 60px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-
-.downlevel .posts-list .post-preview {
-  color: inherit;
-}
-
-</style>
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace("#", "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if (category == page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption">Lyndsay's Cognitive Psychology Blog</h1>
-<a href="posts/2020_09_11 Module I Part II/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 11, 2020</div>
-</div>
-<div class="thumbnail"></div>
-<div class="description">
-<h2>Cognitive Psychology Foundations - Module I Part II</h2>
-<p>I continue explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.</p>
-</div>
-</a>
-<a href="posts/2020_09_04 Module I/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 4, 2020</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Cognitive Psychology Foundations - Module I Part I</h2>
-<p>I explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.</p>
-</div>
-</a>
-<a href="posts/2020_09_03 Cognitive Psychology/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Sept. 3, 2020</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>What is Cognitive Psychology</h2>
-<p>What is Cognitive Psychology? Thoughts from a student who definitely does not have all the answers.</p>
-</div>
-</a>
-<a href="posts/welcome/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Aug. 28, 2020</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Welcome!</h2>
-<p>Welcome to Lyndsay's Cognitive Psychology Blog!</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Lyndsay’s Cognitive Psychology Blog</h1>
-
+<h1>Cognitive Psychology Foundations - Module I Part II</h1>
+<p><p>I continue explore some foundational work investigating cognitive psychology, it’s origins, and different ways in which the field has been studied.</p></p>
 </div>
 
+<div class="d-byline">
+  Lyndsay Hage <a href="https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/" class="uri">https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/</a> (Hunter College - City University of New York)<a href="https://www.cuny.edu" class="uri">https://www.cuny.edu</a>
+  
+<br/>09-11-2020
+</div>
 
 <div class="d-article">
-
+<p>Hintzman’s (1986) paper focused on describing and running a computational model of memory inspired directly by Semon’s memory theory. Computational papers are definitely not my strength, but it was interesting to connect this paper with what I had learned from Schachter et al.’s (1978) paper as well as the lecture from my Cognitive Psychology course regarding Semon’s theory of memory (Crump, 2020). There is always something remarkable about following the lineage or convergence of scientific ideas across time and watching them expand, change, and develop as our methods of inquiry and our technological tools improve. If only Semon could see the simulation model, MINERVA 2, apply his concepts of memory. While he was unable to test his theory himself and relied heavily on introspection, I think he would feel quite validated to watch computer models test these ideas under different paradigms.</p>
+<p>This paper helped me to develop my understanding of this perspective of memory. In the Multiple Trace Memory Model, there is one memory system consisting of episodic traces that are stored in each person. With each new conscious experience, we develop more memory traces. Eventually, we develop a massive pool of traces called the secondary memory. When we see a cue to retrieve information or a “probe,” the primary memory is broadcast to all traces in the secondary memory simultaneously. Each trace is activated according to how many properties it shares with the initial probe. Not only can specific experiences be retrieved in this process, but also abstract knowledge which is derived from the pool of memory traces. To observe this relationship with abstract knowledge, Hintzman used the schema-abstraction task as it appears to capture the basic ways of learning to classify and allows for quite a bit of variable control.</p>
+<p>I really enjoyed thinking about memory in terms of resonance and wavelengths of energy. During my Cognitive Psychology lecture, Dr. Crump (2020) used the metaphor of hitting a middle C string on a piano (similar to the primary memory) and how the resulting vibrations physically broadcast and resonate with all the other strings in the piano (secondary memory). Strings on the piano (memory traces) with similar properties, such as C on different octaves from the probe C, will be the most activated in relation to strings that are less similar to the probe string (G, D, etc.). This string resonance is the echo that emanates back from the secondary memory. This analogy really helped me significantly to understand the theory behind the simulation. It also made this theory more tangible in my mind.</p>
+<p>The discussion regarding the methods of running the MINERVA 2 model was a bit inaccessible for me, but I appreciated the justifications for how they developed the model and incorporated the different aspects of multiple trace memory theory. It is always interesting to see how characteristics within a phenomenon are derived in an equation. In this section of the paper, we could see how the characteristics of secondary memory’s “echo” such as intensity and content are derived mathematically so that the model can simulate these processes as the echo returns to the primary memory.</p>
+<p>The MINERVA 2 model was applied to the schema-abstraction paradigm to evaluate if subjects could obtain an “abstract idea” even though an abstraction like this was never previously stored. They found that it was able to retrieve an abstracted prototype of a category when cued with the category name and was able to retrieve a category name when cued with a category exemplar. This predicts basic findings from previous literature exploring this paradigm. Interestingly, the echo presented by MINERVA 2 resembled the prototype (that was not explicitly known) but was not an exact copy. The prototype was abstracted over the process of learning. It’s crazy computer can do this!</p>
+<p>I cannot imagine the pain that Richard Semon felt when he decided to end his own life on December 27, 1918 (Schacter et al., 1978). If only we could reach back in time and give Semon a glimpse of the effect his work might have today and how his ideas have converged and inspired scientists to come. If we could, I think articles like Hintzman’s could have given him hope where he perhaps felt none. This is also a testament to other scientists who are similarly struggling for recognition and facing regular rejection. One may never personally know the impact a contribution might have to future generations. As long as scientists develop work that is ethical and well-designed, they can never know how important that work will be some day.</p>
+<hr />
+<p>In reading Aujla et al’s (2019) article, I had fun learning about how search engine logic can be designed using cognitive psychology and the possibilities this has for the future! This work applied natural language processing theories as a basis for developing a computational method for interpreting the language of a user’s search submission. Using what is known about human language, this search engine was designed to provide search results that fit with the user’s intent rather than keyword matching alone.</p>
+<p>Classic search engines use keyword matching when retrieving relevant documents but that doesn’t always provide the results one is actually looking for. I’ve used terrible search engines in the past and I have not been able to put into words what made them so bad. A search really isn’t about the exact key word that is being used, but the objective and meaning behind the specific combination of terms that used in the search. If I write keywords such as “dog Central America hairless sweater” in a search, it might be because I can’t remember the name of the dog breed that I am looking for, but my intent is to search the “Xoloitzcuintli” dog breed to find out if it gets cold in the winter. A search engine that can predict this would be valuable!</p>
+<p>There is something about applied psychology that is so exciting! Sometimes, when going through numerous papers describing theories, modelling, and predictions, it becomes easy to lose track of how these theories manifest in real world. When reading about the predictive modeling of a troop of baboons’ spatial movements and group decision-making, the paper itself has is interesting. From it we can ask, what factors predict where a troop of baboons decide to move? Who do they decide to follow? Do they go off of group consensus? From my perspective, it becomes even more exciting once we apply this information to predict a troop that is, let’s say, repeatedly crop-raiding a farmer. This information is not only valid and interesting on its own but may actually help someone. If we predict when and why baboons come to crop-raid, we can develop ways to prevent or deter this behavior which protects the farmer from losing their livelihood and health and the baboons from getting into dangerous situations.</p>
+<p>It was really interesting to learn (loosely) what methods models such as the LSA, BEAGLE, and BEAGLE-RP use to track human language and how several of these models were used to develop the “Semantic Librarian” in this study. Again, this modelling emphasized word meaning rather than word matching. The progression of quantitative representations of word semantics over the years is astoundingly rapid. Language is so dynamic and it is truly a marvel these models can be developed to determine word meaning accurately.</p>
+<p>In this study, Aujla et al. (2019) used a large collection of documents from various experimental psychology journals to create the context that the model could read. The process of reading through this content helped to develop the semantic word vectors needed to create this search engine. This massive pool of information that the model could reference helped the it to determine the meanings of words within the context of experimental psychology journals.</p>
+<p>When we speak to one another, we do not evaluate each word independently, but in the framework of the sentence that word exists in. Using this logic, the model read each word in the context of every sentence, in of all of the documents in order to build a semantic memory vector for every word. This included what context the word existed in (summed up the environmental vectors of all the other words in the same sentence) and the order in which that word is placed in a sentence. This not only connected the words in the same sentence but also indirectly associated words of the same or similar meaning because these words (chair and recliner) had environmental vectors of common words (seat, sit, sat) that summed into their semantic representations. I’m connecting Hintzman’s (1986) explanation of memory trace where the activation of a trace through shared primitive properties with a probe can also spread to that trace’s other primitive properties that are not contained in the probe. A probe may activate an associated memory that contains information the probe does not contain – which is the basis of associative learning (Hintzman, 1986).</p>
+<p>Let’s see if I can predict something correctly: Imagine that I query “this dog barks and scratches” in a search engine designed around papers that only discuss the dog breed, Xoloitzcuintli and their area of origin, genetics, vocalizations (including barking), and behavior. The model created from these papers would likely also associate my query of “dog” with Mexico (where Xoloitzcuintli come from). The probe might cause the model to retrieve articles regarding “Mexico.” My probe had nothing to do with Mexico, but due to the limited corpus provided to the model, it might determine that similar words like “dog” and “Xoloitzcuintli” that are both associated with barking and scratching are also likely both associated with “Mexico.” With more information, the search engine would likely not make a mistake.</p>
+<p>It was really interesting reviewing the search interface and how it used a target article to find authors whose work was related to that article in question. This would be incredibly helpful for literature reviews and would cut down on the tedious, but necessary, searching that often occurs when preparing an experiment or writing a manuscript. The visualization of the articles and authors on a two-dimensional plot is also a really helpful way to visualize how plotted authors or articles are related to the target article. This way, one might prioritize which articles to review first by order of relevance. I wish more search engines displayed this.</p>
+<p>This paper discussed how a user’s vocabulary and the vocabulary in the corpus provided to the search engine derives semantic meaning. This made me think about equitability in search engines. Within the English language alone, there are various dialects and variations that differ in their vocabulary, spelling, and grammar. Their ability to be mutually comprehensible between groups is varied as well. When search engines are designed, what vocabulary might their standard be set to? When validating models like those described in this paper, what standards are we using to determine their validity as a model for language? Most likely the standards are set based on white, college educated men who are most likely to be designing or testing these engines. It makes sense that queries on experimental psychology papers should be derived from experimental psychology papers, but what about similar “Semantic Librarians” that could be used by the general public? I think it is important to be mindful of how we develop these models and who we are developing them for. Developing ways to incorporate various dialects, such as African American Vernacular English (AAVE) or Aboriginal English from Australia might provide a bridge for members of communities who predominately use a variety of English that is different than the white standard that has historically existed.</p>
+<hr />
+<p>First, I love when journal articles include a public significance statement. The more we can bridge scientific findings to the general community, the more we can encourage future scientists! One shouldn’t need to be completely familiar with all the terminology in order to access the general findings and potential implications of a journal article.</p>
+<p>I had no idea that there is a word-initiation/first-letter slowing effect (longer keystroke times for letters in the first position of a word compared with the other letters in a word) and a midword slowing effect (an inverted U shaped pattern with longer inter-keystroke intervals for letters in the middle of a word compared to letters at the beginning and ending of word). Reading about this made me very self-conscious of my typing as I wrote out my notes and has made me self-conscious of my typing now…</p>
+<p>I think it is really fascinating how scientists like Crump et al (2019) utilize mundane, everyday behaviors (such as typing) as windows into general processes such as how the human mind handles uncertainty and as how instance theory of automatization can inform how we learn a skill. Studies that utilize “natural,” everyday behaviors in animals to investigate their behaviors are more likely to be successful at demonstrating an animal’s true abilities. Using an elephant’s naturally impressive ability to smell can help us see how it might discriminate quantities of food.</p>
+<p>Crump et al. used information theory to measure structure in natural texts and, through looking at letter uncertainty (H), they found that letters in first position and in the middle position had greater letter uncertainty than those in other positions. There is variation in the mean inter-keystroke intervals that instance theory of automation helps to address.</p>
+<p>How does a typist become faster at typing? Instance theory of automatization models predict that the more instances someone has at attempting a skill, through practice, the more memory traces are preserved in the brain. Memory traces are created and preserved in the brain every time a response is given to a stimulus. When we present that stimulus again, all stored instances are triggered to be retrieved. As the number of memory traces grow, with more experience with that stimulus, the retrieval times for the skill associated with that stimulus will decrease. Each memory trace varies in its retrieval time, so the more instances one has to build more memory traces the more likely there will be a memory trace that has a shorter retrieval time. Over time you become faster at typing! Every time a typist presses down on their familiar keyboard, memory traces are being activated and formed.</p>
+<p>Using a model simulation of instance theory, they were able to predict mean reaction times for sets of items that vary in uncertainty and found that they were identical to the uncertainty (H) but were scaled based on constant factors. Instance theory can model how a general learning and memory process could produce typing performance in terms of (or as a function of letter uncertainty). With this in mind, instance theory could help optimize learning to type with all types of texts, including natural ones.</p>
+<p>Instance theory emphasizes how important it is to automatization to practice a skill extensively and in numerous contexts in order to develop the skill. To improve keystroke speed and accuracy for example, one might practice extensively while taking care to practice in different setting and with different keyboards. Changing up the location of the typing as well as the keyboard with which one is typing with would develop many more memory traces associated with varied stimuli. This practice across multiple contexts can help a typist expand their reaction times and their ability to speedily get the job done.</p>
+<p>Aujla, Crump, Cook, &amp; Jamieson (2019). The Semanitc Librarian: A search engine built from vector-space models of semantics. Behavior Research Methods, 51(6). <a href="https://doi.org/10.3758/s13428-019-01268-4" class="uri">https://doi.org/10.3758/s13428-019-01268-4</a></p>
+<p>Crump, Lai, &amp; Brosowsky (2019). Instance Theory Predicts Information Theory: Episodic Uncertainty as a Determinant of Keystroke Dynamics. Canadian Journal of Experimental Psychology. <a href="http://dx.doi.org/10.1037/cep0000182" class="uri">http://dx.doi.org/10.1037/cep0000182</a></p>
+<p>Crump, M. (2020, September 4). PSYC 73800 Cognitive Psychology: Overview. [Lecture Notes].</p>
+<p>Hintzman, D.L. (1986). “Schema Abstraction in Multiple-Trace Memory Model. Psychological Review, 93(4), 411-428.</p>
+<p>Schacter, D. J., Eich, J. E., &amp; Tulving, E. (1978). Richard Semon’s Theory of Memory. Journal of Verbal Learning and Verbal Behavior, 17, 721-743.</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -1,5 +1,21 @@
 [
   {
+    "path": "posts/2020_09_11 Module I Part II/",
+    "title": "Cognitive Psychology Foundations - Module I Part II",
+    "description": "I continue explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.",
+    "author": [
+      {
+        "name": "Lyndsay Hage",
+        "url": "https://lyndsaymh.github.io/Lyndsay-s-Cognitive-Psychology-Blog/"
+      }
+    ],
+    "date": "2020-09-11",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-09-11T09:11:38-04:00",
+    "input_file": "2020_09_04-Module-I-Part-I.utf8.md"
+  },
+  {
     "path": "posts/2020_09_04 Module I/",
     "title": "Cognitive Psychology Foundations - Module I Part I",
     "description": "I explore some foundational work investigating cognitive psychology, it's origins, and different ways in which the field has been studied.",
